@@ -1,0 +1,51 @@
+<!-- © 2008-2019 NeoDev, Lda. All rights reserved -->
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+        body{overflow:hidden;font-family:verdana;font-size:12px;}
+        a{outline: 0;}
+        #table{width:100%;border-collapse:collapse;white-space:nowrap;font-family: verdana;font-size: 12px; vertical-align:middle;}
+        #advertisements {text-align:right;padding-left:16px;}
+        .squ { color: white; font-size:9px; line-height:10px; margin-left: 2px; padding:0.3em 0.7em; border: 1px solid #666; border: rgba(0, 0, 0, .2) 1px solid; border-bottom: rgba(0, 0, 0, .4) 1px solid; box-shadow: 0 1px 2px rgba(0,0,0,.2); background: -webkit-gradient(linear,center bottom,center top,from(rgba(0, 0, 0, .1)),to(rgba(255, 255, 255, .1))); display: inline-block; border-radius: 3px; text-shadow: transparent 0px 0px 0px,black 0px 0px 2px; box-shadow: inset 0px -8px 0px 0px rgba(0,0,0,0.1); }
+        .squ:hover{ background: -webkit-gradient(linear,center bottom,center top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.2))); background-color: none; }
+        .nb-button {color: white !important;text-decoration: none;font-size: 12px;background-color: #00B1FF;margin-left:16px;}
+        .nb-button:hover { background-color: #00B1FF; }
+        #balances{text-align:center;cursor:pointer; white-space:nowrap;}
+        #mb{font-family:verdana;font-size:13px;font-weight:bold;}
+        #mb1{font-family:verdana;font-size:11px;}
+        #mb2{font-family:verdana;font-size:9px;}
+        #separator{font-family:verdana;font-size:12px;color:#999999}
+        #rb{font-family:verdana;font-size:13px;font-weight:bold;}
+        #rb1{font-family:verdana;font-size:11px;}
+        #rb2{font-family:verdana;font-size:9px;}
+        #icons{text-align:center;margin-top: 8px;}
+        .icon{margin:0px 4px;}
+        .hand{cursor:pointer;}
+
+        #app{display:none;font-size:10px;color:#888;margin-top:10px;text-align:center;}
+        #app a{color:#fff;padding:1px 5px;background-color:#00a0ee;border-radius:3px;text-decoration:none;border: 1px solid rgba(0,0,0,0.2);}
+        
+        #block{display:none;font-size:11px;background-color:#ac0000;margin-top:10px;text-align:center;padding:4px 4px;color:#fff;}
+        </style>
+        <script src="js/pop.js"></script>
+    </head>
+    <body>
+        <table id="table" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td>
+                    <a href="" title="NeoBux" id="logolink"><img id="logo" width="70" height="16" src="images/logo.png"></a>
+                </td>
+                <td id="advertisements"><a href="" id="mj"><span class="squ" style="background-color:#e6c700;linear-gradient(to bottom,rgb(255, 221, 0) 0%,rgb(208, 160, 72) 100%);">66</span></a></td>
+            </tr>
+        </tbody></table>
+            <span id="mb" style="color: rgb(68, 68, 68);">$3</span><span id="mb1" style="color: rgb(68, 68, 68);">.45</span><span id="mb2" style="color: rgb(68, 68, 68);">7</span><span id="separator"></span><span id="rb"></span><span id="rb1"></span><span id="rb2"></span>
+        </div>
+        <div id="icons"><table id="table-icons" cellpadding="0" cellspacing="0" style="margin: 0px auto;"><tr><td><img id="forum" class="icon hand" src="images/forum.png" width="16" height="16"></td><td><img id="offers" class="icon hand" src="images/offers.png" width="16" height="16"></td><td><img id="direct" class="icon" src="images/direct-gray.png" width="16" height="16"></td><td><img id="rented" class="icon" src="images/rented-gray.png" width="16" height="16"></td><td><img id="statistics" class="icon hand" src="images/statistics.png" width="16" height="16"></td><td><img id="settings" class="icon hand" src="images/settings.png" width="16" height="16"></td></tr></table></div>
+        <div id="app" style="display: block;">
+        	<div style="margin-top:8px;margin-bottom:8px;"><img src="images/hr.png" style="width:100%;height:2px;"></div>
+        	<span id="appSpan">Try&nbsp;our&nbsp;AdAlert&nbsp;App&nbsp;</span><a id="appA" href="https://chrome.google.com/webstore/detail/hnpkdcghgfeaccigdjnibpkopebncakc" target="_blank" style="display: inline;">More&nbsp;info</a>
+        </div>
+        <div id="block">AdAlert requests are being blocked.<br>Please, disable any browser extension<br>that could be blocking ads.<br><br>Thank you.</div>
+    
+
+</body></html>
